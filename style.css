@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Poppins:wght@500&family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* .container{
+    width: 1200px;
+} */
+.bg-color{
+    background-color: #FFF6EA;
+}
+.mp{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.font-color{
+    color: #06113C;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #A4B54A;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: gold;
+}
+h2{
+    font-size: 50px;
+    
+}
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+}
+h4{
+    font-weight: 600;
+}
+h5{
+    font-weight: bold;
+}
+button img{
+    width: 30px;
+}
+.card{
+    border: none;
+}
+.card-img-top{
+    background-color: #EEEEEE;
+    border-radius: 12px;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .responsive-img{
+      flex-direction: column;
+    }
+} 
+@media only screen and (max-width: 576px) {
+    .service-resp{
+      flex-direction: column;
+    }
+    .flex-none{
+        /* margin-right: 20px; */
+        margin-left: 20px;
+    }
+    .service-resp img{
+        margin-bottom: 20px;
+    }
+} 
+@media only screen and (max-width: 992px) {
+    
+} 
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .responsive-btn{
+      flex-direction: column;
+    }
+} 
